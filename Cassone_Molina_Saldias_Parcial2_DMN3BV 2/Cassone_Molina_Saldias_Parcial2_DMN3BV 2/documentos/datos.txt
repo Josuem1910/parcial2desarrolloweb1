@@ -1,0 +1,34 @@
+Datos de los integrantes del grupo:
+
+	Josué Molina.
+		• Carrera – Diseño Multimedial.
+		• Materia – Diseño y Programación Web I.
+		• Año – 2do Año (2024).
+		• Cuatrimestre – 3er Cuatrimestre.
+		• Comisión – DMN3BV.
+		• Turno – Noche.
+		• Nombre y Apellido – Josué Molina.
+		• Docente – Omar Toyos.
+		• Carácter de entrega – Segundo Parcial.
+
+	Lourdes Saldias.
+		• Carrera – Diseño Multimedial.
+		• Materia – Diseño y Programación Web I.
+		• Año – 2do Año (2024).
+		• Cuatrimestre – 3er Cuatrimestre.
+		• Comisión – DMN3BV.
+		• Turno – Noche.
+		• Nombre y Apellido – Lourdes Saldias.
+		• Docente – Omar Toyos.
+		• Carácter de entrega – Segundo Parcial.
+
+	Naiara Cassone.
+		• Carrera – Diseño Multimedial.
+		• Materia – Diseño y Programación Web I.
+		• Año – 2do Año (2024).
+		• Cuatrimestre – 3er Cuatrimestre.
+		• Comisión – DMN3BV.
+		• Turno – Noche.
+		• Nombre y Apellido – Naiara Cassone.
+		• Docente – Omar Toyos.
+		• Carácter de entrega – Segundo Parcial.

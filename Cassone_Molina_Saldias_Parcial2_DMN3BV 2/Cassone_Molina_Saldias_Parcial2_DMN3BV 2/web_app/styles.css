@@ -1,0 +1,428 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./recursos/s_nosotros/fondo_natu.jpg);
+    background-position: center;
+}
+
+/*BANNER*/
+.negrofondo {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.fondobanner1 {
+    background-image: url(./recursos/s_nosotros/banner_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+/*SOBRE NOSOTROS*/
+.chicasonrientecentrada {
+    margin-top: 110px;
+}
+
+/*PASTILLAS DE INFORMACIÓN*/
+.card .card-body {
+    padding: 30px;
+}
+
+/*CALENDARIO*/
+.cuerpodelcalendario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-del-calendario {
+    width: 100%;
+    max-width: 600px;
+    margin: 2px;
+}
+
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.dia {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.dia:hover {
+    background-color: #f0f0f0;
+}
+/*añadir recetas */
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+} 
+
+.contenido-del-modal {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#comentario {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.boton-cerrar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.boton-cerrar:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.boton-cerrar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botones {
+    margin-top: 10px;
+}
+
+#boton-eliminar {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #76B8FF;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px; /* ESPACIO ENTRE BOTONES */
+}
+
+#boton-guardar {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #76B8FF;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px; /* ESPACIO ENTRE BOTONES */
+}
+
+#boton-guardar:hover {
+    background-color: #195da5;
+}
+
+#boton-eliminar:hover {
+    background-color: #195da5;
+}
+
+.tiene-comentario {
+    background-color: #ffefc1;
+}
+
+/*CARRUSEL*/
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+/*AGREGAR RECETAS*/
+.tarjeta-receta {
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.tarjeta-receta .card-body {
+    max-height: 200px; /* AJUSTE DE ALTURA */
+    overflow-y: auto; /* DESPLAZAMIENTO VERTICAL */
+}
+
+.titulo-receta {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    margin-right: 20px; /* AJUSTE PARA SEPARACIÓN DE BOTONES */
+}
+
+.texto-receta {
+    margin: 0;
+    word-wrap: break-word;
+    padding: 5px; /* AJUSTE DE MARGEN */
+}
+
+.grupo-botones {
+    display: flex;
+    gap: 10px; /* ESPACIO ENTRE BOTONES */
+}
+
+.boton-añadir-receta {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.tituki {
+    font-size: 2rem; /* TAMAÑO DEL TITULO */
+}
+
+.guardar-recetas {
+    background-color: #76B8FF;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.guardar-recetas:hover {
+    background-color: #195da5;
+    color: #ffffff;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #343a40;
+}
+
+footer .d-flex {
+    align-items: center;
+    justify-content: center;
+}
+
+footer .rounded-circle {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+footer h5 {
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #ccc;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10 px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footerb{
+    display: none;
+}
+
+#botonInfo{
+    padding: 1%;
+}
+
+#b-inf{
+    padding: 1% 2%;
+    background-color: #76B8FF;
+    color: #ffffff;
+}
+
+.cont-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cont-gri2{
+    text-align: left;
+    margin: auto;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 480px) {
+    .navbar-brand img {
+        width: 40px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.6rem;
+    }
+
+    .SobreNosotrosSave {
+        font-size: 18px;
+    }
+
+    .SobreNosotrosSave2 {
+        font-size: 13px;
+    }
+
+    .sobre-nosotros-video {
+        width: 90%;
+        max-width: 280px; 
+        margin: 0 auto;
+    }
+
+    .chicasonrientecentrada {
+        margin: 0;
+    }
+
+    .display-4 {
+        font-size: 1.5rem;
+    }
+
+    .lead {
+        font-size: 0.6rem;
+    }
+
+    .btn-lg {
+        font-size: 0.6rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .col-lg-6.mb-4.mb-lg-0 {
+        padding: 5px;
+    }
+
+    .card-body {
+        font-size: 0.8rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cuerpodelcalendario {
+        flex-direction: column;
+    }
+
+    .contenedor-del-calendario {
+        max-width: 100%;
+    }
+
+    .dia {
+        padding: 5px;
+    }
+
+    .contenido-del-modal {
+        width: 90%;
+    }
+
+    .calendario_h2 {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    footer .rounded-circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer h5, footer p {
+        font-size: 0.6rem;
+    }
+
+    footer ul li {
+        font-size: 0.6rem;
+    }
+
+    #b-inf {
+        font-size: 0.6rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .cont-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .acomodartamañopara480 {
+        font-size: 1.3rem
+    }
+
+    .acomodartamañopara4802 {
+        font-size: 1rem
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .navbar-nav {
+        text-align: center;
+    }
+
+    section {
+        padding: 20 px 0;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1 rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8 rem;
+    }
+
+    .chicasonrientecentrada {
+        margin-top: 80px;
+    }
+}

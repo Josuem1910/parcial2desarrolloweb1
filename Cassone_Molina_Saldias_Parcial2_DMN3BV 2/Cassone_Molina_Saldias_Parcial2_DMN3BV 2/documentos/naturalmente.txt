@@ -1,0 +1,10 @@
+NATURALMENTE - FUNCIONALIDAD
+	Descubre cómo nuestra WebApp "Naturalmente" simplifica la organización de tu alimentación diaria con nuestro Calendario personalizado. Registra y ordena tus comidas de manera intuitiva y eficaz, además de gestionar notas fácilmente, todo en un solo lugar.
+
+Características clave de nuestro Calendario:
+	1. Registro de Comidas: Planifica tus desayunos, almuerzos, cenas y snacks de forma anticipada para mantener una alimentación equilibrada.
+	2. Orden y Gestión: Organiza tus comidas según tus preferencias y necesidades nutricionales, adaptándote a tu estilo de vida.
+	3. Notas y Recordatorios: Añade notas útiles sobre recetas, preferencias alimenticias o cualquier otra información relevante. Elimina y actualiza tus notas con facilidad.
+	4. Gestión Saludable: Mantén un seguimiento saludable de tu dieta sin estrés, optimizando tus elecciones alimenticias día a día.
+
+Con nuestra herramienta de Calendario, gestionar tu día a día nunca ha sido tan fácil ni tan beneficioso para tu salud. Únete a Naturalmente y experimenta una nueva manera de organizar tu alimentación de manera saludable y sin complicaciones.
